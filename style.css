@@ -1,0 +1,97 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Joan&family=Poppins:wght@500&display=swap");
+/* common styles or utilities*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.first-part {
+  width: 80%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+}
+.first-part h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+}
+hr {
+  border-top: 1px solid black;
+  width: 80%;
+}
+.sponsor {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.popular-collection {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-collection h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.products {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+.product h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fa-star {
+  font-size: 12px;
+}
+.filled {
+  color: #ffc014;
+}
+.unfilled {
+  color: #aeaeae;
+}
+/* ------------------------
+------------------button */
+.button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.button {
+  text-decoration: none;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 41px;
+  padding: 10px 24px;
+  gap: 8px;
+}
